@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: blue;
+    color: white;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+  }
+
+/* selector  */
+  
+/* The period preceding card designates this as a class selector. Any HTML element assigned to the class, card, will gain these property assignments from the CSS. */
+.card {
+
+/* The first declaration addresses the width of the element at 80% of the available width.    */
+    width: 80%;
+    
+/* The margin property assigns 40px to the top and bottom, and the auto value to the left and right. */
+    margin: 40px auto;
+    
+/* The border property assigns a border with a width of 5px that is solid and gray.    */
+    border: 5px solid gray;
+    
+/* The box-shadow CSS property adds shadow effects around an element's frame. You can set multiple effects separated by commas. A box shadow is described by X and Y offsets relative to the element, blur and spread radius, and color. In our example, the X offset is 5px and defines the width or extent of the shadow on the X axis (or to the right of the box); the Y offset is 10px and defines the extent on the Y axis (or just below the box). We haven’t defined the blur or spread radius here, but you’ll learn more about this in time. We’ve used an HTML hexadecimal code to define the color. */
+    box-shadow: 5px 10px #888888;
+  }
